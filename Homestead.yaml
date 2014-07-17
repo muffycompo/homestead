@@ -3,11 +3,11 @@ ip: "192.168.28.10"
 memory: 2048
 cpus: 1
 
-authorize: "C:/Users/Mfawa Alfred Onen/.ssh/id_rsa.pub"
+authorize: "C:/Users/me/.ssh/id_rsa.pub"
 # authorize: /Users/me/.ssh/id_rsa.pub
 
 keys:
-    - "C:/Users/Mfawa Alfred Onen/.ssh/id_rsa"
+    - "C:/Users/me/.ssh/id_rsa"
 #    - /Users/me/.ssh/id_rsa
 
 folders:
