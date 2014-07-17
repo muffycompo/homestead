@@ -13,7 +13,7 @@ folders:
       to: /home/vagrant/webapps/app_dir
 
 sites:
-	# Go to C:\Windows\System32\drivers\etc\hosts and add my_app.app as 127.0.0.1
+	# Go to C:\Windows\System32\drivers\etc\hosts and add my_app.app as 127.0.0.1.
     - map: my_app.app
       to: /home/vagrant/webapps/app_dir/public
 
