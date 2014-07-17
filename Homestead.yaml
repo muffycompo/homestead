@@ -3,26 +3,19 @@ ip: "192.168.28.10"
 memory: 2048
 cpus: 1
 
-authorize: "C:/Users/me/.ssh/id_rsa.pub"
-# authorize: /Users/me/.ssh/id_rsa.pub
+authorize: "C:/Users/Account Username/.ssh/id_rsa.pub"
 
 keys:
-    - "C:/Users/me/.ssh/id_rsa"
-#    - /Users/me/.ssh/id_rsa
+    - "C:/Users/Account Username/.ssh/id_rsa"
 
 folders:
     - map: "D:/wamp/www/app_dir"
-      to: /home/vagrant/codes/app_dir
-	  
-#    - map: /Users/me/codes/app_dir
-#      to: /home/vagrant/codes/app_dir
+      to: /home/vagrant/webapps/app_dir
 
 sites:
+	# Go to C:\Windows\System32\drivers\etc\hosts and add my_app.app as 127.0.0.1
     - map: my_app.app
-      to: /home/vagrant/codes/app_dir/public
-
-#    - map: my_app.app
-#      to: /home/vagrant/codes/app_dir/public
+      to: /home/vagrant/webapps/app_dir/public
 
 variables:
     - key: APP_ENV
